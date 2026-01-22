@@ -27,4 +27,5 @@ jobs:
         run: npm install
 
       - name: 🚀 Build APK (Preview)
+        # Yahan hum npx eas-cli use kar rahe hain taake path ka issue khatam ho jaye
         run: npx eas-cli build --platform android --profile preview --non-interactive
